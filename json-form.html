@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json Data Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h3 style="color: red;">Student Registration Form</h3>
+        </center>
+        <div style="align-content: center;">
+            <form action="save-json-data.php" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            Name:
+                        </td>
+                        <td>
+                            <input type="text" id="name" name="name" placeholder="Enter name" autocomplete="off">
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            Age:
+                        </td>
+                        <td>
+                            <input type="number" id="age" name="age" placeholder="Enter Age" autocomplete="off">
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            Addres:
+                        </td>
+                        <td>
+                            <input type="text" id="add" name="add" placeholder="Enter Address" autocomplete="off">
+                        </td>
+                    </tr><br>
+                    <tr>
+
+                        <td>
+                            <!--<button type="button" id="submit" class="btn btn-success">Submit</button>-->
+                            <input type="submit" id="submit" value="Save">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
